@@ -190,18 +190,18 @@ async def get_users(show):
             if not show.pattern_match.group(1):
                 async for user in show.client.iter_participants(show.chat_id):
                     if not user.deleted and user.id != bot.uid:
-                        mentions += f"\n{user.id},⚠️Porn / Porn Group Member//AntiPornFed #Massban🔞🛑"
+                        mentions += f"\n{user.id},❌❌BLACKLISTED BY TFN EMPIRE FOR UNFBAN COME TO @TFN_FEDCHAT"
                     elif user.id != bot.uid:
-                        mentions += f"\n{user.id},⚠️Porn / Porn Group Member//AntiPornFed #Massban🔞🛑"
+                        mentions += f"\n{user.id},❌❌BLACKLISTED BY TFN EMPIRE FOR UNFBAN COME TO @TFN_FEDCHAT"
             else:
                 searchq = show.pattern_match.group(1)
                 async for user in show.client.iter_participants(
                     show.chat_id, search=f"{searchq}"
                 ):
                     if not user.deleted and user.id != bot.uid:
-                        mentions += f"\n{user.id},⚠️Porn / Porn Group Member//AntiPornFed #Massban🔞🛑"
+                        mentions += f"\n{user.id},❌❌BLACKLISTED BY TFN EMPIRE FOR UNFBAN COME TO @TFN_FEDCHAT"
                     elif user.id != bot.uid:
-                        mentions += f"\n{user.id},⚠️Porn / Porn Group Member//AntiPornFed #Massban🔞🛑"
+                        mentions += f"\n{user.id},❌❌BLACKLISTED BY TFN EMPIRE FOR UNFBAN COME TO @TFN_FEDCHAT"
         except ChatAdminRequiredError as err:
             mentions += " " + str(err) + "\n"
         file = open("userslist.csv", "w+")
@@ -230,18 +230,18 @@ async def get_users(show):
             if not show.pattern_match.group(1):
                 async for user in show.client.iter_participants(show.chat_id):
                     if not user.deleted and user.id != bot.uid:
-                        mentions += f"\n{user.id},⚠️Suspicious/Btc Scammer/Fraudulent activities #Massban🛑"
+                        mentions += f"\n{user.id},❌❌BLACKLISTED BY TFN EMPIRE FOR UNFBAN COME TO @STAR_BOY_FED"
                     elif user.id != bot.uid:
-                        mentions += f"\n{user.id},⚠️Suspicious/Btc Scammer/Fraudulent activities #Massban🛑"
+                        mentions += f"\n{user.id},❌❌BLACKLISTED BY TFN EMPIRE FOR UNFBAN COME TO @STAR_BOY_FED"
             else:
                 searchq = show.pattern_match.group(1)
                 async for user in show.client.iter_participants(
                     show.chat_id, search=f"{searchq}"
                 ):
                     if not user.deleted and user.id != bot.uid:
-                        mentions += f"\n{user.id},⚠️Suspicious/Btc Scammer/Fraudulent activities #Massban🛑"
+                        mentions += f"\n{user.id},❌❌BLACKLISTED BY TFN EMPIRE FOR UNFBAN COME TO @STAR_BOY_FED"
                     elif user.id != bot.uid:
-                        mentions += f"\n{user.id},⚠️Suspicious/Btc Scammer/Fraudulent activities #Massban🛑"
+                        mentions += f"\n{user.id},❌❌BLACKLISTED BY TFN EMPIRE FOR UNFBAN COME TO @STAR_BOY_FED"
         except ChatAdminRequiredError as err:
             mentions += " " + str(err) + "\n"
         file = open("userslist.csv", "w+")
